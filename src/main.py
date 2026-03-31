@@ -15,9 +15,8 @@ Pipeline Overview:
     5. Detect edges using Canny Edge Detection
     6. Apply adaptive thresholding
     7. Combine edge and threshold results
-    8. Clean up with morphological operations
-    9. Detect and filter contours
-   10. Draw cracks on original image and classify severity
+    8. Detect and filter contours
+    9. Draw cracks on original image and classify severity
 """
 
 import os
