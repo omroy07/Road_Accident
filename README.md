@@ -81,7 +81,7 @@ road-crack-detection/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/road-crack-detection.git
+   git clone https://github.com/omrroy07/Road_Accident.git
    cd road-crack-detection
    ```
 
