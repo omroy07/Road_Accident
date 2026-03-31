@@ -81,8 +81,8 @@ road-crack-detection/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/omrroy07/Road_Accident.git
-   cd road-crack-detection
+   git clone https://github.com/omroy07/Road_Accident.git
+   cd Road_Accident
    ```
 
 2. **Create a virtual environment** (recommended)
