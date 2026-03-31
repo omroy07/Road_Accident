@@ -113,7 +113,6 @@ def process_image(image_path, output_dir="outputs"):
     save_image(blurred, os.path.join(output_dir, f"{basename}_2_blurred.jpg"))
     save_image(edges,   os.path.join(output_dir, f"{basename}_3_edges.jpg"))
     save_image(thresh,  os.path.join(output_dir, f"{basename}_4_threshold.jpg"))
-    save_image(cleaned, os.path.join(output_dir, f"{basename}_5_morphology.jpg"))
     save_image(result,  os.path.join(output_dir, f"{basename}_6_result.jpg"))
 
     # ── Display all stages ───────────────────────────────────────────────
@@ -123,8 +122,7 @@ def process_image(image_path, output_dir="outputs"):
         "3. Blurred":         blurred,
         "4. Canny Edges":     edges,
         "5. Threshold":       thresh,
-        "6. Morphology":      cleaned,
-        "7. Detected Cracks": result,
+        "6. Detected Cracks": result,
     }
     display_detailed_results(
         stages,
